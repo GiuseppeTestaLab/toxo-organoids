@@ -1275,7 +1275,7 @@ sc.pl.umap(onlyhuman, color=[chosen_leiden], legend_loc='on data')
 onlyhuman.obs["celltype"] = onlyhuman.obs[chosen_leiden].map(
  {"0": "N_IP",
   "1": "N_UPR",
-  "2": "N_Syn",
+  "2": "N_metabolism",
   "3": "N1",
   "4": "N2",
   "5": "vRG_oRG",
