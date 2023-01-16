@@ -1,5 +1,7 @@
 
+short_title: "toxo-organoids"
 title: "scRNA-seq analysis of toxoplasma-infected cortical brain organoids"
+subtitle: 'The code and the data in this repository enables the reproduction of the analyses and plots for the single-cell RNA-seq data in the paper "Engineering a Brain Parasite for Intracellular Delivery of Proteins to the Central Nervous System" (CELL-D-23-00107).'
 
 pages:
 
