@@ -1,8 +1,20 @@
 
-title: "Project Name"
+title: "scRNA-seq analysis of toxoplasma-infected cortical brain organoids""
 
 pages:
 
-  Test Notebook:
-    notebook: "prova.ipynb"
-    description: "This is a test notebook"
+  Filtering and Annotation:
+    notebook: "01-filtering-and-annotation.ipynb"
+    description: "Initial processing of the dataset: quality metrics, filtering, normalization, dimensionality reduction, clustering and celltype annotation."
+
+  Markers:
+    notebook: "02-markers.ipynb"
+    description: "Plots of the markers for the relevant cell populations."
+
+  Differential Analysis:
+    notebook: "03-differential_analysis.ipynb"
+    description: "Computation and functional annotation of the differentially expressed genes."
+
+  MECP2 Related Genes:
+    notebook: "04-MECP2_related_genes.ipynb"
+    description: "Plots of the expression of MECP2-related genes."
